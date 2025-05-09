@@ -1,6 +1,6 @@
 # Multi Level Feedback Queue (MLFQ)
 
-The multi level feedback queue is a scheduler designed to improve turnaround time as well as response time. It acheives this without knowing a priori the characteristics of the jobs it is growing to run (like how long the job will run for, whether or not the job will be performing io, if the job is a short running one or long running one). MLFQ achieves this balance between turnaround time and response time by learning the characteristics as jobs run and using the learn characteristics to schedule them accordingly.
+The multi level feedback queue is a scheduler designed to improve turnaround time as well as response time. It acheives this without knowing a priori the characteristics of the jobs it is growing to run (like how long the job will run for, whether or not the job will be performing io, if the job is a short running one or long running one). MLFQ achieves this balance between turnaround time and response time by learning the job characteristics as they run and using the learnt characteristics to schedule them accordingly.
 
 ## Project Description
 
